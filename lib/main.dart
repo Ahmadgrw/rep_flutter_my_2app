@@ -16,7 +16,9 @@ Widget build(BuildContext context){
     title: 'Welcome to Flutter',
     home: Scaffold(
       appBar: AppBar(
-        title: const Text('Welcome to My 2APP'),
+        title: const Center(
+          child: Text('Welcome to My 2APP')
+          ),
 
       ),
       body: const Center( child: Text('The body text')),
